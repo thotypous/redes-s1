@@ -121,7 +121,10 @@ Execute o executável principal em cada placa.
 
 Na placa 1, você vai ter que executar, em outros terminais (sem matar o Python!), alguns comandos que o executável principal vai indicar. Obs.: é normal aparecer uma vez a mensagem `BlockingIOError: [Errno 11] Resource temporarily unavailable` depois de executar o `slattach`.
 
-Teste se o servidor de eco está funcionando: conecte-se a ele a partir da placa 1 executando `nc 192.168.200.4 7000`.
+Teste se o servidor de eco está funcionando: conecte-se a ele a partir da placa 1 executando:
+```
+nc 192.168.200.4 7000
+```
 
 Se tiver problemas, pode ser útil fazer algumas simulações locais (veja os arquivos `exemplo_integracao.py` que foram fornecidos ao longo dos trabalhos anteriores), pois é mais fácil depurar localmente do que nas placas.
 
