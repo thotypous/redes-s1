@@ -1,3 +1,8 @@
+# ATENÇÃO
+
+**PRÉVIA**: ainda não foi atualizado para 2022/1.
+
+
 # Introdução
 
 Neste trabalho, vamos juntar todas as camadas que implementamos até agora e depois testar o funcionamento em uma rede física real!
