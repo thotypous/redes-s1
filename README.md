@@ -1,6 +1,6 @@
 # ATENÇÃO
 
-**PRÉVIA**: ainda não foi atualizado para 2022/1.
+**PRÉVIA**: ainda não foi atualizado para 2022/2.
 
 
 # Introdução
