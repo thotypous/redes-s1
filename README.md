@@ -156,7 +156,7 @@ Na placa 1, você vai ter que executar, **em outros terminais** (sem matar o Pyt
 
 Teste se o servidor de eco está funcionando. Para isso, conecte-se a ele executando o seguinte comando na placa 1:
 ```
-nc 192.168.200.4 7000
+nc -C 192.168.200.4 7000
 ```
 
 Tente enviar um pouco de texto e veja se o servidor te responde com o mesmo texto que enviaste.

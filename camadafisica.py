@@ -12,7 +12,7 @@ from collections import defaultdict
 class ZyboSerialDriver:
     """ Driver para o hardware de https://github.com/thotypous/zybo-z7-20-uart """
 
-    def __init__(self, device='/dev/uio/user_io'):
+    def __init__(self, device='/dev/uio/user_io@43c00000'):
         self.fd = os.open(device, os.O_RDWR)
         fcntl.fcntl(self.fd, fcntl.F_SETFL, os.O_NONBLOCK)
         self.mm = mmap.mmap(self.fd, 0x1000)
